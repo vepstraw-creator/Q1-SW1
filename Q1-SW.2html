@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Q1 Seatwork 1</title>
+  <style>
+    /* Internal CSS */
+    body {
+      background-color: blue;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    /* Container to put all 3 bands in one horizontal row */
+    .row-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Top 3 Spotify Artists / Playlists</h1>
+
+  <div class="row-container">
+    
+    <div>
+      <a href="http://googleusercontent.com/spotify.com/5" target="_blank">
+        <img src="https://i.scdn.co/image/ab6761610000e5eb4291136b696041f02120b080" alt="Taylor Swift">
+      </a>
+      <h2>Taylor Swift</h2>
+    </div>
+
+    <div>
+      <a href="http://googleusercontent.com/spotify.com/5" target="_blank">
+        <img src="https://i.scdn.co/image/ab6761610000e5eb1d6e492215c0e1898748373b" alt="Drake">
+      </a>
+      <h2>Drake</h2>
+    </div>
+
+    <div>
+      <a href="http://googleusercontent.com/spotify.com/5" target="_blank">
+        <img src="https://i.scdn.co/image/ab6761610000e5eb8ae7f2aaa9817a704a87ea36" alt="Ariana Grande">
+      </a>
+      <h2>Ariana Grande</h2>
+    </div>
+
+  </div>
+
+</body>
+</html>
